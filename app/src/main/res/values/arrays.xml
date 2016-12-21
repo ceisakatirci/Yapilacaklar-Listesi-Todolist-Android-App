@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gorev_bildirimi">
+        <item>Zamanında</item>
+        <item>5 dakia önce</item>
+
+        <item>15 dakia önce</item>
+
+        <item>30 dakia önce</item>
+
+        <item>1 saat önce</item>
+        <item>2 saat önce</item>
+        <item>3 saat önce</item>
+
+
+    </string-array>
+
+    <string-array name="gorev_bildirimi_degerler">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+        <item>5</item>
+
+        <item>6</item>
+
+        <item>7</item>
+
+    </string-array>
+    <string-array name="terarlamalar">
+        <item>Tekrar yok</item>
+        <item>Günde bir kez</item>
+
+        <item>Günde bir kez(Pazartesi-Cuma))</item>
+
+        <item>Haftada bir kez</item>
+
+        <item>Ayda bir kez</item>
+        <item>Yılda bir kez</item>
+        <item>Diğer...</item>
+    </string-array>
+    <string-array name="tekar_degerler">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+        <item>5</item>
+
+        <item>6</item>
+
+        <item>7</item>
+    </string-array>
+</resources>

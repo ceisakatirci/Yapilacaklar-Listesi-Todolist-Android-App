@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="settings">
+    
+    <CheckBoxPreference
+		android:key="PREF_BITMIS_GOREV_GIZLE"
+		android:title="@string/tamamlanmisGorevleriGizle"
+		android:defaultValue="true"/>
+    
+    <ListPreference
+        android:key="PREF_GOREV_BILDIRIMI"
+        android:title="@string/gorevBildirimi"
+        android:summary="@string/gorevBildirimiOzet"
+        android:defaultValue="0"
+        android:dialogTitle="@string/gorevBildirimiBaslik"
+        android:entries="@array/gorev_bildirimi"
+        android:entryValues="@array/gorev_bildirimi_degerler"/>
+	<ListPreference
+		android:key="PREF_UYARI_SURESİ"
+		android:title="Tekrarla"
+		android:summary="Tekrarlama Süresini Seçeneklerden Beliryeniz."
+		android:defaultValue="0"
+		android:dialogTitle="Tekrarlama Süresini Giriniz"
+		android:entries="@array/terarlamalar"
+		android:entryValues="@array/tekar_degerler"/>
+
+    
+</PreferenceScreen> 

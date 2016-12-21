@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_kaydet"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Kaydet"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_sil"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Sil"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_ayarlar"
+        android:title="Ayarlar"
+        app:showAsAction="never" />
+
+</menu>
